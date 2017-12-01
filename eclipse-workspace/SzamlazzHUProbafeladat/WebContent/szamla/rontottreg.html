@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport"
+content=width=device-width, initial-scale=1"
+charset="UTF-8">
+<link rel="stylesheet" href="../css/style.css">
+
+<title>Regisztráció</title>
+</head>
+<body>
+
+
+        <!--    Header starts here -->
+        
+        <div class="header_wrapper">
+        <!-- This is header-->
+        
+        <a href="https://www.szamlazz.hu/szamla/regisztracio"><img id="logo" src="../css/szHUteszt1.png" alt="logo.png"/></a>
+		<a href="https://www.szamlazz.hu/szamla/regisztracio">REGISZTRÁCIÓ</a>
+		<a href="login.html"><button name="action" value="belep">BELÉPÉS</button></a>
+        
+        </div>
+
+<h1>Regisztráció</h1>
+
+<div class="reg-form">
+<form name="regform" action="SzHuServlet" method="post">
+		<table>
+			<tr>
+			<td class="label">Vezetéknév</td>
+			<td class="label">Keresztnév</td>
+			</tr>
+			<tr>
+			<td><input name="vezeteknev" value="" placeholder="Vezetéknév"/></td>
+			<td><input name="keresztnev"  value="" placeholder="Keresztnév"/></td>
+			<td>
+			</tr>
+			<tr>
+			<td class="label">Email cím</td>
+			</tr>
+			<tr>
+			<td><input name="email" value="" placeholder="Email cím" colspan="2"/></td>
+			<td>
+			</tr>
+			<tr>
+			<td class="label">Jelszó</td>
+			</tr>
+			<tr>
+			<td><input type="password" name="jelszo" value="" placeholder="Jelszó" colspan="2"/></td>
+			<td>
+			</tr>
+			<tr>
+			<td class="label">Jelszó megerősítése</td>
+			</tr>
+			<tr>
+			<td	><input type="password" name="jelszomegerositese" value="" placeholder="Jelszó megerősítése" colspan="2"/></td>
+			</tr>
+			<tr>
+			<td colspan="2"><input type="checkbox" name="aszf-any" value="aszf-any">Elfogadom az <a href="https://www.szamlazz.hu/aszf">ÁSZF</a>-et és 
+			az <a href="https://www.szamlazz.hu/adatvedelem">adatvédelmi nyilatkozatot</a><br>
+			<input type="checkbox" name="hirlevel" value="hirlevel">Szeretnék értesülni az újdonságokról<br>
+			<input class="o-btn" type="submit" action="reg" value="Regisztráció"/><br></td>
+			
+			</tr>
+		</table>
+</form>			<hr>
+		<p>Vagy regisztrálj egyszerűen a közösségi fiókoddal <br>
+		<input type="submit" value="REGISZTRÁCIÓ MOSTSZÁMLÁZZ FIÓKKAL"/><br>
+		<input type="submit" value="REGISZTRÁCIÓ FACEBOOK FIÓKKAL"/><br>
+		<input type="submit" value="REGISZTRÁCIÓ GOOGLE FIÓKKAL"/><br>
+		</p>
+
+</div>
+<div class="van-mar">
+<p>Van már felhasználói fiókod? <a href="login.html"><button name="action" value="belep">BELÉPÉS</button></a>
+		</p>
+</div>
+
+<div id="footer"><!--This is the footer-->
+
+<a href="https://www.szamlazz.hu/szamla/regisztracio"><img id="logo" src="../css/szHUteszt2.png" alt="logo.png"/></a>
+        <a href="https://www.szamlazz.hu/main">Főoldal</a>
+		<a href="https://www.szamlazz.hu/impresszum">Impresszum</a>
+		<a href="https://www.szamlazz.hu/adatvedelem">Adatvédelem</a>
+		<a href="https://www.szamlazz.hu/aszf">ÁSZF</a>
+		<a href="https://www.szamlazz.hu/kapcsolat">Kapcsolat</a>
+
+        
+    </div>
+    
+</body>
+</html>
